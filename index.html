@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Adventure time Restaurant</title> <!-- Tytuł naszej strony, nagłówek -->
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Schoolbell" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+	<script src="jquery.js"></script>
+	<script src="script.js"></script>
+	<script>
+		setTimeout(wakeUpUser, 5000);
+		function wakeUpUser() {
+			alert("Myślisz sobie, łał ten tekst musi być ważny skoro wyświetlił się podczas przeglądania strony tak o, znikąd, tymczasem to jest kolejny bezsensowny tekst który ma Ci zabrać czas na jego czytanie, nie czytaj go już bo to bez sensu, nic ciekawego się nie dowiesz czytając ten komunikat, ale tak w sumie to mogę Ci powiedzieć że ładnie dzisiaj wyglądasz ale czy to ważne, przecież jestem zwykłym głupi komunikatem gdzie nikt mnie nie docenia i czuje się osamotniony....<br> A Ty dalej czytasz i myślisz że coś ciekawego się tutaj wydarzy, kliknij po prostu ten przycisk OK w dolnym rogu i miejmy to za sobą, posiedzę tutaj sam, bez przyjaciół, a chciałem tylko żebyśmy się poznali lepiej... wybacz że się tak że tak powiem narzucam i wyskakuję niczym dzik z agrestu ale taki już jestem. ")
+		}
+
+
+	</script>
+</head>
+<body>
+
+	<header class="top">
+		<div class="container">
+		<!-- Nasze logo -->		
+		<div class="logo">
+		<a href="index.html">LOGO</a>
+		</div>
+			<!-- Sekcja wyboru, menu -->
+			<div class="main-menu">
+				<ul>
+					<li><a href="index.html">Start</a></li>
+					<li><a href="index.html">Oferta</a></li>		
+					<li><a href="index.html">Recenzje</a></li>
+					<li><a href="index.html">Kontakt</a></li>
+				</ul>
+			</div>			
+		</div>
+	</header>
+	<!-- Zalety oferty, dlaczego nas wybrac i tak dalej -->
+	<section class="banner">
+		<div class="container center-text">
+			<h1>Najlepsza restauracja<br> w motywie Adventure Time !</h1>
+			<p class="main">Restauracja wykonana w motywie najlepszej bajki tego pokolenia<br> Adventure Time</p>
+			<a href="index.html" class="button button-light">Sprawdź naszą ofertę!</a>
+		</div>
+	</section>
+	
+	<section class="intro">
+		<div class="container">
+			<h2 class="center-text">Dlaczego warto nas wybrać</h2>
+			<div class="col-one-third center-text">
+				<img src="img/ciastko.png" class="ciastko" alt="">
+				<h3>Najlepsze ciasta w okolicy!</h3>
+				<p>Ciasta składające się z magicznych składników</p>
+			</div>
+			<div class="col-one-third center-text">
+				<img src="img/kucharze.png" class="obrazek" alt="" width="300px">
+				<h3>Światowej klasy kucharze!</h3>
+				<p>Ciasta składające się z magicznych składników</p>
+			</div>
+			<div class="col-one-third center-text">
+				<img src="img/musisz.png" class="obrazek" alt="" width="280px">
+				<h3>Musisz spróbować!</h3>
+				<p>Ciasta składające się z <span><strong>magicznych</strong></span> składników</p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Sekcja by skorzystac z naszych promocji -->
+	<section class="promo">
+		<div class="container">
+			<div class="col-half">
+				<img src="img/dlugi.png" alt="">
+			</div>
+			<div class="col-half">
+				<h2>Skorzystaj z naszych promocji</h2>
+				<p>lorem hallan akajs asdaikf</p>
+			</div>
+		</div>
+		
+	</section>
+	<!-- Sekcja kontakt z nami -->
+	<section class="contact">
+		<div class="container">
+			<h2 class="center-text">Skontaktuj się z nami</h2>
+			<div class="col-half">
+				<!-- Główny formularz logowania-->
+				<form action="">
+					<label for="name">
+						<strong>Twa godność waćpanie</strong>
+					</label><br>
+					<input type="text" name="name" id="name"><br>
+					<label for="email">
+						<strong>Email</strong>
+					</label><br>
+					<input type="text" name="email" id="email"><br>
+					<label for="password">
+						<strong>Hasło</strong>
+					</label><br>
+					<input type="text" name="password" id="password"><br>
+					<button type="submit" class="button button-dark" id="login">Wyślij gołębia</button>
+				</form>
+			</div>
+			<!-- Sekcja znajdź nas -->
+			<div class="col-half" id="contact-right">
+				<h4>Znajdź nas</h4>
+				<img src="img/mapa.png" alt="Mapa" width="500px">
+			</div>
+		</div>
+	</section>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>&copy; Adrian Bzowski 2017</p>
+		</div>
+		
+	</footer>
+
+
+</body>
+</html>

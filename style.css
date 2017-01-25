@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Globalne style tekstu*/
+body {
+	font-family: 'Schoolbell', cursive;
+	color: black;
+	line-height: 1.5;
+	font-size: 1.3em;
+	
+}
+
+p {
+	margin-top: 6px;
+}
+h1,h2,h3,h4, label {
+	color: #45474F;
+}
+h1 {
+	color: #ffbf00;
+	font-size: 54px;
+	line-height: 1.2;
+	text-shadow: 0px 5px 3px rgba(148, 150, 150, 1);
+	font-weight: bold;
+}
+h2 {
+	font-size: 30px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 28px;
+	padding: 20px;
+}
+
+h3, h4 {
+	font-weight: 600;
+}
+/*Kolumny, kontener, sekcja*/
+/*.col-one-third {
+	width: 33.3333%;
+	float: left;
+}
+.col-half{
+	width: 50%;
+	float: left;
+}*/
+
+.col-one-third, .col-half {
+	width: 100%;
+	float:none;
+} 
+@media screen and (min-width: 960px) {
+	.col-one-third {
+	width: 33.3333%;
+	float: left;
+}
+.col-half{
+	width: 50%;
+	float: left;
+}
+}
+
+section {
+	clear: both;
+	padding: 90px;
+	overflow: auto;
+}
+.container {
+	max-width: 1040px;
+	margin: 0 auto;
+}
+
+.center-text {
+	text-align: center;
+}
+/*style przycisków*/
+
+.button {
+	display: inline-block;
+	padding: 8px 20px;
+	margin: 16px 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 7px;
+}
+.button-light {
+	background: #ffbf00;
+	color: #0079c2;
+	font-weight: bold;
+
+}
+.button-dark {
+	background: #0079c2;
+	color: white;
+	font-weight: bold;
+}
+
+/*Title banner of the page*/
+.top {
+	height: 60px;
+	background: #ffbf00;
+	border: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 12px;
+	margin-bottom: 2px;
+}
+.top a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.logo {
+	float: left;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 60px;
+
+}
+
+.main-menu {
+	float: right;
+
+}
+
+.main-menu li {
+	float: left;
+	line-height: 60px;
+	padding: 0 10px;
+}
+
+/* Banner*/
+.banner {
+	color: #FFFFFF;
+	background: #000000;
+	padding: 200px 0;
+	background: url("img/banner.jpg") center no-repeat fixed;
+	background-size: cover; 
+	border: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 12px;
+
+}
+
+.banner h1 {
+	margin-bottom: 30px;
+}
+/*Sekcja intro*/
+
+.obrazek {
+	margin-bottom: 32px;
+	width: 180px;
+	height: 180px;
+
+}
+.ciastko {
+	width: 160px;
+	height: 211px;
+	
+
+}
+
+.intro h3 {
+	color: #088da5;
+	margin-bottom: 10px;
+}
+/*Sekcja Promocje */
+
+.promo {
+	background: url("img/trawa.jpg")center no-repeat fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid;
+	border-width: 2px;
+	border-radius: 12px;
+
+}
+.main p {
+	font-weight: bold;
+}
+
+.promo h2 {
+	color: black;
+}
+
+.promo p {
+	color: 333333;
+}
+
+/*Contact section*/
+
+.contact input {
+	margin-bottom: 16px;
+	border-radius: 3px;
+	border: 2px solid black;
+	padding: 8px;
+	width: 80%;
+}
+
+.contact .col-half {
+	margin-top: 32px;
+}
+.site-footer {
+	background: url("img/footer.png")no-repeat fixed;
+	background-size: contain;
+	background-position: center bottom;
+	padding: 40px 0px;
+	border: 1px solid;
+	border-radius: 20px;
+}
